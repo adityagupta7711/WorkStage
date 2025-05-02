@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sign-up Background */
+.authBg {
+  background: rgb(175, 163, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(175, 163, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.authDivBg {
+  background: rgb(247, 247, 247);
+  background: linear-gradient(
+    0deg,
+    rgba(247, 247, 247, 1) 0%,
+    rgba(240, 240, 240, 1) 100%
+  );
+}
+
+.authBtnBg {
+  background: rgb(75, 54, 204);
+  background: linear-gradient(
+    0deg,
+    rgba(75, 54, 204, 1) 0%,
+    rgba(156, 147, 212, 1) 100%
+  );
+}
+
+.authFinalBtn {
+  background: rgb(76, 56, 194);
+  background: linear-gradient(
+    0deg,
+    rgba(76, 56, 194, 1) 0%,
+    rgba(47, 33, 136, 1) 100%
+  );
+}
+
+.addCardBtnBg {
+  background: rgb(58, 58, 58);
+  background: linear-gradient(
+    0deg,
+    rgba(58, 58, 58, 1) 0%,
+    rgba(32, 32, 32, 1) 100%
+  );
+}
+
+.boardbg {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  background-color: #222;
+  border: none;
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+}
